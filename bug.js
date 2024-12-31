@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}console.log(foo(2,3));//Expected output:5console.log(foo(2,"3"));//Unexpected output:23In Javascript, the + operator will perform string concatenation if one of the operands is a string. This can lead to unexpected results if you are not careful.
